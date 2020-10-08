@@ -12,6 +12,6 @@ VOLUME /tmp
 
 EXPOSE 8762
 
-ADD ./target/st-eureka-server-0.0.1-SNAPSHOT.jar st-eureka-server.jar
+ADD ./target/st-eureka-server-1.0.2.jar st-eureka-server.jar
 
 ENTRYPOINT java -Xmx$XMX -jar /st-eureka-server.jar --spring.profiles.active=$PROFILE --spring.cloud.config.uri=$CLOUD_CONFIG

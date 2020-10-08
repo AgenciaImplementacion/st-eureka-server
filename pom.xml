@@ -14,7 +14,7 @@
 
 	<groupId>com.ai.st.eureka</groupId>
 	<artifactId>st-eureka-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<name>st-eureka-server</name>
 	<description>Sistema Transición - Servidor Registro / Descubrimiento</description>
 
